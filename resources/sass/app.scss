@@ -1,0 +1,33 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import "~bootstrap/scss/bootstrap";
+
+// STYLES
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: white !important;
+}
+
+// FORM
+.form-wrapper {
+    margin: 5% auto;
+}
+
+.form-wrapper>h1 {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
